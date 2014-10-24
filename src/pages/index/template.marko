@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Express View Streaming Demo</title>
+</head>
+<body>
+    <h1>Express View Streaming Demo</h1>
+
+    Hello ${data.name}!
+
+    <ul>
+        <li style="color: $color" for="color in data.colors">
+            $color
+        </li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "express-view-streaming",
+  "version": "1.0.0",
+  "description": "express-view-streaming",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrick-steele-idem/express-view-streaming.git"
+  },
+  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrick-steele-idem/express-view-streaming/issues"
+  },
+  "homepage": "https://github.com/patrick-steele-idem/express-view-streaming",
+  "dependencies": {
+    "express": "^4.10.0",
+    "marko": "^1.3.4"
+  }
+}
